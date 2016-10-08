@@ -1,7 +1,7 @@
 # haskell-stats
 
 The aim of this project is to provide a complete set of statistics about
-hackage that are updated continously.
+hackage that are updated continuously.
 
 Currently the project supports:
 
@@ -17,6 +17,9 @@ packages available in hackage (or maybe stackage?).
 
 * Clean up the code and refactor as much as possible using good coding
   practices (at the moment everything is a bit too hacky).
+
+* Use the [hackage API](https://hackage.haskell.org/api#package-contents) to
+get all the necessary information to crunch the numbers.
 
 * Provide an extensively API that can be used to reuse the provided statistics
   in other ways.
